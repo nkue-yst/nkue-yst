@@ -4,5 +4,3 @@
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nkue-yst&hide=Makefile" />
 </a>
-
-<img src="https://grass-graph.moshimo.works/images/nkue-yst.png">
