@@ -22,5 +22,5 @@
 <p align="right">
   <a href="https://x.com/UnrealYossyi">X</a>
   &nbsp; / &nbsp;
-  <a href="https://yossyi.itch.io">itch.io</a>
+  <a href="https://store.steampowered.com/app/5251030/TaskBarStudio/">Steam</a>
 </p>
