@@ -20,7 +20,7 @@
 </table>
 
 <p align="right">
-  <a href="https://twitter.com/8190_Yossyi">X</a>
+  <a href="https://x.com/UnrealYossyi">X</a>
   &nbsp; / &nbsp;
   <a href="https://yossyi.itch.io">itch.io</a>
 </p>
