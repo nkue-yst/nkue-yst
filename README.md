@@ -1,8 +1,26 @@
-# Yoshito Nakaue
+<p align="center">
+  <img src="./assets/profile.svg" alt="Yoshito Nakaue — C++ をメイン言語とするゲームツールプログラマー。Qt / Unreal Engine / CMake" width="100%">
+</p>
 
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2.svg?logo=twitter&style=plastic)](https://twitter.com/8190_Yossyi)
+<table width="100%">
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://github.com/nkue-yst/gEngine"><strong>gEngine ↗</strong></a><br>
+      <sub>Engine · Editor</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://github.com/nkue-yst/BinPackLib"><strong>BinPackLib ↗</strong></a><br>
+      <sub>Asset packing · CLI</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://github.com/nkue-yst/AudioPluginHostPlugin"><strong>Audio Plugin Host ↗</strong></a><br>
+      <sub>Unreal Engine · VST3</sub>
+    </td>
+  </tr>
+</table>
 
-[![itch.io](https://img.shields.io/badge/-Itch.io-FA5C5C.svg?logo=itch.io&style=plastic)](https://yossyi.itch.io)
-
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=nkue-yst&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nkue-yst&hide=Makefile)](https://github.com/anuraghazra/github-readme-stats)
+<p align="right">
+  <a href="https://twitter.com/8190_Yossyi">X ↗</a>
+  &nbsp; / &nbsp;
+  <a href="https://yossyi.itch.io">itch.io ↗</a>
+</p>

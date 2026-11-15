@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Yoshito Nakaue — C++ / Game Tools Programmer</title>
+  <desc id="description">C++をメイン言語とするゲームツールプログラマー。エディターのビューポート、選択中の立方体、プロパティを描いたプロフィール。Qt、Unreal Engine、CMake。</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#263640" stroke-width="1"/>
+    </pattern>
+    <clipPath id="viewport">
+      <rect x="522" y="99" width="260" height="166"/>
+    </clipPath>
+  </defs>
+
+  <!-- 名前と言語、職種を左側にまとめ、縮小時にも主題を残す。 -->
+  <rect x="0.5" y="0.5" width="959" height="359" rx="12" fill="#101B24" stroke="#344650"/>
+  <path d="M36 44H48" stroke="#81DFCC" stroke-width="3"/>
+  <text x="60" y="51" fill="#F1F4EF" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="600">Yoshito Nakaue</text>
+  <text x="924" y="50" fill="#A3B7BF" font-family="Consolas, monospace" font-size="15" text-anchor="end">nkue-yst</text>
+
+  <text x="32" y="183" fill="#81DFCC" font-family="Consolas, Menlo, monospace" font-size="124" font-weight="700" letter-spacing="-7">C++</text>
+  <text x="39" y="233" fill="#F1F4EF" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="600" letter-spacing="1">GAME TOOLS</text>
+  <text x="40" y="265" fill="#B3C5CD" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="3.2">PROGRAMMER</text>
+
+  <!-- ビューポートとプロパティで、ゲーム制作を支えるツールを表す。 -->
+  <rect x="454" y="76" width="470" height="210" rx="7" fill="#14232D" stroke="#415862"/>
+  <path d="M454 99H924M522 99V265M782 99V265M454 265H924" stroke="#415862"/>
+  <circle cx="468" cy="88" r="2.5" fill="#81DFCC"/>
+  <text x="480" y="92" fill="#B3C5CD" font-family="Consolas, monospace" font-size="11">scene.tools</text>
+  <path d="M884 85L889 88L884 91Z" fill="#81DFCC"/>
+  <rect x="902" y="85" width="6" height="6" rx="1" stroke="#A3B7BF"/>
+
+  <!-- 左ペインの選択状態と、中央のワイヤーフレームを対応させる。 -->
+  <path d="M466 115H510M466 128H505M473 154H507M473 167H499M473 180H505" stroke="#526873" stroke-width="2"/>
+  <rect x="461" y="136" width="55" height="12" rx="2" fill="#81DFCC" fill-opacity=".14"/>
+  <path d="M467 140L470 142L467 144M475 142H507" stroke="#81DFCC" stroke-width="1.5"/>
+  <g clip-path="url(#viewport)">
+    <rect x="522" y="99" width="260" height="166" fill="url(#grid)"/>
+    <path d="M536 240L652 167L768 240M536 215L652 142L768 215M536 190L652 117L768 190M554 252L670 179M586 265L702 192M618 278L734 205M750 252L634 179M718 265L602 192M686 278L570 205" stroke="#344B55" stroke-width="1"/>
+    <path d="M603 151L650 125L697 151L650 179Z" fill="#81DFCC" fill-opacity=".16"/>
+    <path d="M603 151V205L650 233V179Z" fill="#81DFCC" fill-opacity=".05"/>
+    <path d="M650 179V233L697 205V151Z" fill="#81DFCC" fill-opacity=".1"/>
+    <path d="M603 151L650 125L697 151V205L650 233L603 205ZM603 151L650 179L697 151M650 179V233" stroke="#81DFCC" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M650 125V179M603 205L650 179L697 205" stroke="#81DFCC" stroke-opacity=".3" stroke-dasharray="3 4"/>
+    <path d="M590 137V128H599M702 128H711V137M590 220V230H599M702 230H711V220" stroke="#D7EAE1" stroke-width="1.5"/>
+    <path d="M650 179V110M650 179L710 212M650 179L600 210" stroke="#D7EAE1" stroke-width="1.5"/>
+    <path d="M646 116L650 109L654 116M703 212L711 213L707 205M608 210L599 211L603 203" stroke="#D7EAE1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="650" cy="179" r="3.5" fill="#F1F4EF"/>
+    <path d="M718 222L721 244L726 237L734 236Z" fill="#F1F4EF" stroke="#14232D" stroke-width="1.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 右ペインは操作部品の形で表現し、細かな説明文を増やさない。 -->
+  <text x="794" y="119" fill="#A3B7BF" font-family="Consolas, monospace" font-size="10" letter-spacing="1">TRANSFORM</text>
+  <text x="795" y="141" fill="#81DFCC" font-family="Consolas, monospace" font-size="10">X</text>
+  <text x="795" y="163" fill="#81DFCC" font-family="Consolas, monospace" font-size="10">Y</text>
+  <text x="795" y="185" fill="#81DFCC" font-family="Consolas, monospace" font-size="10">Z</text>
+  <path d="M811 138H910M811 160H910M811 182H910" stroke="#415862" stroke-width="3" stroke-linecap="round"/>
+  <path d="M811 138H858M811 160H882M811 182H841" stroke="#81DFCC" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="858" cy="138" r="3" fill="#F1F4EF"/>
+  <circle cx="882" cy="160" r="3" fill="#F1F4EF"/>
+  <circle cx="841" cy="182" r="3" fill="#F1F4EF"/>
+  <path d="M794 202H911" stroke="#415862"/>
+  <rect x="795" y="214" width="8" height="8" rx="1.5" stroke="#81DFCC"/>
+  <path d="M797 218L799 220L802 216M813 218H889M795 238H875" stroke="#A3B7BF" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M467 275H491M499 275H516M867 275H911" stroke="#526873" stroke-width="2"/>
+
+  <!-- 使用技術と制作領域を、短いラベルのみに絞る。 -->
+  <path d="M36 307H924" stroke="#344650"/>
+  <text x="40" y="337" fill="#A3B7BF" font-family="Consolas, monospace" font-size="13" letter-spacing="1.1">EDITORS / ENGINES / PLUGINS</text>
+  <text x="920" y="337" fill="#D7EAE1" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="end">Qt · Unreal Engine · CMake</text>
+</svg>
